@@ -1,0 +1,791 @@
+body, html {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #041c34;
+}
+
+hr {
+    opacity: 0.5;
+    border: 10px double #fa1593;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 2.5rem auto 2.5rem auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: inherit;
+}
+
+.skills-hr {
+    opacity: 0.5;
+    border: 10px double #95deff;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.hobbies-hr {
+    opacity: 0.75;
+    border: 10px double #95deff;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+}
+
+.light-section {
+    background-color: #fa1593
+}
+
+.other-light-section {
+    background-color: #95deff;
+    color: #041c34; 
+}
+
+.dark-section {
+    background-color: #041c34; 
+    color: #95deff;
+}
+
+.selected {
+    color: #fa1593;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: #041c34;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    color: #95deff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 2rem;   
+}
+
+.inner-container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar-brand:hover {
+    color: #fa1593;
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+    margin: 0;
+}
+
+.nav-link {
+    color: #95deff;
+}
+
+.nav-link:hover {
+    color: #fa1593;
+}
+
+.home-image {
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.home-intro-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+}
+
+.home-intro-paragraph {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.home-title-text {
+    padding-bottom: 1rem;
+}
+
+.home-button {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: 1px solid #fa1593;
+    background-image: url("../images/Portfolio-Home-Background.png");
+    background-size: cover;
+    color: #95deff;
+}
+
+.home-button:hover {
+    border: 1px solid #95deff;
+    background-image: url("../images/Button-Hover.png");
+    background-size: cover;
+    color: #fa1593;
+}
+
+.home-name-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.home-container {
+    padding: 7% 8.5%;
+    background-image: url("../images/Portfolio-Carousel-Image-Test2.png");
+    background-size: cover;
+}
+
+.intro-container {
+    padding: 12.5% 0;
+    border: 10px double #95deff;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.copyright-text {
+    padding-bottom: 1.2rem;
+}
+
+.aboutme-container {
+    padding-bottom: 3rem;
+}
+
+.aboutme-image {
+    border: 10px double #fa1593;
+    border-top: none;
+    border-bottom: none;
+    height: auto;
+    width: auto;
+    padding: 1.75rem;
+}
+
+.aboutme-note {
+    color: #95deff;
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+.aboutme-bigheading {
+    color: #95deff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    padding-bottom: 0.75rem;
+}
+
+.aboutme-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.aboutme-paragraph {
+    text-align: justify;
+}
+
+.aboutme-leftcontent {
+    border: 7px #fa1593;
+    border-style: double none;   
+    padding: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.projects-container {
+    border: 10px double #95deff;
+    border-left: none;
+    border-right: none;
+    padding: 5% 2%;
+}
+
+.projects-title {
+    padding-bottom: 5%;
+    color: #95deff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.projects-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.projects-subheadings {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.projects-descriptions {
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.soft-skills-title {
+    padding-bottom: 5%;
+    color: #fa1593;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.soft-skills-container {
+    border: 10px double #fa1593;
+    border-left: none;
+    border-right: none;
+    padding: 5% 10%;
+}
+
+.tech-skills-container {
+    border: 10px double #95deff;
+    border-left: none;
+    border-right: none;
+    padding: 5% 10%;
+}
+
+.skills-bigheading {
+    text-align: left;
+    color: #95deff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.soft-skills-icon {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+.soft-skills-icon:hover {
+    color: #fa1593;
+}
+
+.soft-skills-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.tech-skills-icon {
+    height: 40%;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: 2rem;
+    padding: 1rem;
+    background-image: url("../images/Portfolio-Home-Background.png");
+    background-size: cover;
+    width: 95%;
+    border: 10px double #95deff;
+    border-radius: 25px;
+}
+
+.card:hover {
+    border: 10px double #fa1593;
+}
+
+.card-title {
+    color: #95deff;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar {
+    background-color: #fa1593;
+}
+
+.tech-skills-title {
+    padding-bottom: 5%;
+    color: #95deff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.icitel-container {
+    padding: 1rem auto;
+}
+
+.weddingboss-container {
+    padding: 1rem auto;
+}
+
+.timeout-container {
+    padding: 1rem auto;
+}
+
+.writing-box {
+    border: 10px double #95deff; 
+    border-top: none;
+    border-left: none;
+    background-image: url("../images/Portfolio-Carousel-Image-Test2.png");
+    background-size: cover;
+}
+
+.vlog-box {
+    border: 10px double #fa1593;
+    border-top: none;
+    border-right: none;
+    background-image: url("../images/Portfolio-Home-Background.png");
+    background-size: cover;
+}
+
+.gaming-box {
+    border: 10px double #fa1593;
+    border-bottom: none;
+    border-left: none;
+    background-image: url("../images/Portfolio-Home-Background.png");
+    background-size: cover;
+}
+
+.editing-box {
+    border: 10px double #95deff; 
+    border-bottom: none;
+    border-right: none;
+    background-image: url("../images/Portfolio-Carousel-Image-Test2.png");
+    background-size: cover;
+}
+
+.hobbies-title {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #95deff;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.hobbies-container {
+    border: 10px double #95deff;
+    border-left: none;
+    border-right: none;
+}
+
+.hobby-title {
+    color: #95deff;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.hobby-container {
+    opacity: 0.75;
+    padding: 2rem 3rem 6rem 3rem;
+}
+
+.hobby-container:hover {
+    opacity: 1;
+}
+
+.hobbies-image {
+    height: 80%;
+    width: 80%;
+}
+
+.hobby-paragraph {
+    padding: 0 5rem;
+}
+
+/************************************************Mini-gallery CSS***********************************************/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .prev {
+    left: 0;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #fa1593;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 5px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+
+  .demo2 {
+    opacity: 0.6;
+  }
+
+  .demo3 {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover,
+  .demo2:hover,
+  .demo3:hover {
+    opacity: 1;
+  }
+
+/**************************************************Mini-gallery CSS************************************************/
+
+
+.social-icons {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 2rem;
+}
+
+.social-icons:hover {
+    background-color: #95deff;
+    border-radius: 25%;
+}
+
+.youtube {
+    color: red;
+}
+
+.github {
+    color: black;
+}
+
+.fade-left {
+    /*Animation Test*/
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    /*Animation Test */
+}
+
+.fade-up {
+    /*Animation Test*/
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    /*Animation Test */
+}
+
+.fade-down {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fade-right {
+    /*Animation Test*/
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    /*Animation Test */
+}
+
+/*Fonts
+
+font-family: 'Noto Sans', sans-serif (400, 600, 700, 800);
+font-family: 'Press Start 2P', cursive (400);
+
+*/
+
+#introduction {
+    background-color: #041c34;
+}
+
+#custom-toggler {
+    color: #95deff;
+    margin-right: 1rem;
+}
+
+#custom-toggler:hover {
+    color: #fa1593;
+}
+
+#copyright {
+    padding: 1rem 0;
+}
+
+@media (max-width: 600px) {
+    .home-intro-heading {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+    .home-intro-paragraph {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .home-image-container {
+        padding-top: 3rem;
+    }
+
+    .copyright-text{
+        padding-bottom: 1.2rem;
+    }
+
+    .aboutme-leftcontent {
+        margin-top: 2rem;
+    }
+
+    .tech-skills-icon {
+        height: 75px;
+        width: 75px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .projects-title {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .projects-text {
+        margin: 2rem auto 1rem auto;
+    }
+
+    .hobby-container {
+        padding: 2rem 1rem 8rem 1rem;
+    }
+
+    #copyright {
+        padding: 1.5rem 0;
+    }
+}
+
+/*Animation Test*/
+
+/*Fade From Left*/
+@-webkit-keyframes fadeLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+}
+  
+@keyframes fadeLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+}
+  
+.fade-left {
+    -webkit-animation-name: fadeLeft;
+    animation-name: fadeLeft;
+}
+
+/*Fade In Up */
+@-webkit-keyframes fadeUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+}
+  
+.fade-up {
+    -webkit-animation-name: fadeUp;
+    animation-name: fadeUp;
+}
+
+/*Fade In Down*/
+@-webkit-keyframes fadeDown {
+  0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+  }
+} 
+
+.fade-down {
+    -webkit-animation-name: fadeDown;
+    animation-name: fadeDown;
+}
+
+/*Fade In Right*/
+@-webkit-keyframes fadeRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fade-right {
+    -webkit-animation-name: fadeRight;
+    animation-name: fadeRight;
+  }
