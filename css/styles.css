@@ -298,18 +298,21 @@ a {
 }
 
 .prog-language-skills-heading {
+    text-align: left;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
 
 .webdev-skills-heading {
+    text-align: left;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
 
 .db-tech-skills-heading {
+    text-align: left;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     font-size: 2rem;
