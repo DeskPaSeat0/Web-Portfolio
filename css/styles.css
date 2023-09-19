@@ -264,7 +264,55 @@ a {
     border: 10px double #95deff;
     border-left: none;
     border-right: none;
-    padding: 5% 10%;
+    padding: 5% 2.5%;
+}
+
+.prog-language-container {
+    text-align: left;
+    /* background-image: url("../images/Portfolio-Home-Background.png");
+    background-size: cover; */
+}
+
+.prog-language-skills-container {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.webdev-container {
+    text-align: left;
+    /* background-image: url("../images/Portfolio-Home-Background.png");
+    background-size: cover; */
+}
+
+.webdev-skills-container {
+    text-align: center;
+    padding: 2% 0 0 0;
+}
+
+.db-tech-container {
+    text-align: left;
+}   
+
+.db-tech-skills-container {
+    text-align: center;
+}
+
+.prog-language-skills-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.webdev-skills-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.db-tech-skills-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .skills-bigheading {
@@ -292,10 +340,14 @@ a {
 }
 
 .tech-skills-icon {
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
     margin: 0;
-    padding: 0;
+    padding-top: 0;
+}
+
+.flask-icon {
+    color: white;
 }
 
 .card {
